@@ -1,6 +1,6 @@
 {
   "name": "Random Question",
-  "description": "Don't let them know what is your next question",
+  "description": "Don't let them know what your next question is \n https://30secondsofinterviews.org/" ,
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
@@ -8,5 +8,9 @@
       "matches": ["https://30secondsofinterviews.org/"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "48": "/imgs/icon-48.png",
+    "96": "/imgs/icon-96.png"
+  }
 }
